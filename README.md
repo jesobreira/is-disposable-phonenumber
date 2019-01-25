@@ -1,6 +1,21 @@
-# disposable-phone-numbers
-A list of [disposable phone numbers](https://en.wikipedia.org/wiki/Disposable_numbers). You can use it to detect or block disposable phone numbers in your signup process.
+# is-disposable-phonenumber
+Determine if a phone number is a [disposable phone number](https://en.wikipedia.org/wiki/Disposable_numbers). You can use it to detect or block disposable accounts in your signup process.
 
+The list comes from [@iP1SMS/disposable-phone-numbers](https://github.com/iP1SMS/disposable-phone-numbers) and this wrapper is based on [@ivolo/is-disposable-email](https://github.com/ivolo/is-disposable-email).
 
-If you want to add your own phone numbers please put your submission into `import.json` use `node import.js` to import them into `number-list.json`.
-The import tool orders all phone numbers and removes duplicates.
+# Example
+```javascript
+var disposable = require('is-disposable-phonenumber');
+
+disposable("+18286623154"); // true
+```
+
+# Installation
+
+```
+$ npm install is-disposable-phonenumber
+```
+
+# License
+
+MIT.

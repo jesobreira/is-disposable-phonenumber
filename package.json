@@ -1,0 +1,31 @@
+{
+  "name": "is-disposable-phonenumber",
+  "version": "1.0.0",
+  "description": "Find out whether a phone number is disposable",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesobreira/is-disposable-phonenumber.git"
+  },
+  "keywords": [
+    "disposable",
+    "instant",
+    "temporary",
+    "spam",
+    "detect",
+    "identify",
+    "check"
+  ],
+  "author": "Jefrey S. Santos <jefrey.santos@capitual.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesobreira/is-disposable-phonenumber/issues"
+  },
+  "homepage": "https://github.com/jesobreira/is-disposable-phonenumber#readme",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
